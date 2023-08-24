@@ -9,6 +9,7 @@
  
  * When initializing TinyMCE, import this plug-in and add  
 tinymce.init({  
+content_style: 'body { font-size: 14px; }',  
 plugins: 'customfontsize ...',  
 toolbar: 'customfontsize ...'  
 });  
