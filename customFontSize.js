@@ -1,3 +1,4 @@
+// If you just want to set in tinymce.init({...})
 tinymce.init({
     selector: '#mytextarea',
     // ...
