@@ -7,12 +7,20 @@
  * And use the editor.translate(), that means using tinymce i18n itself
  * If you use the editor.translate(), please add those codes below in tinymce/langs/en.js, tinymce/langs/zh_TW.js or tinymce/langs/zh_CN.js
  
- * When initializing TinyMCE, import this plug-in and add  
+ * When initializing TinyMCE, import this plug-in and add in the tinymce.init() 
 tinymce.init({  
 content_style: 'body { font-size: 14px; }',  
 plugins: 'customfontsize ...',  
 toolbar: 'customfontsize ...'  
 });  
+
+* Note, if you don't want to use the plugin form, you may use the code in:  
+window.tinymce.init({  
+   ...,  
+   setup(editor) {
+     editor.addButton('customfontsize', { ..})  
+  }
+}) 
 
  * Put the code in plugin.min.js:  
 public/tinymce/plugins/customfontsize/plugin.min.js
