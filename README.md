@@ -3,14 +3,18 @@
  * customfontsize 1.0v 2023-8-24
  * This tinymce-plugins is custom used to set the font size.
    
- * In use this plugin, please refer to the Vue2.6, tinymce 4.9.3
+ * In use this plugin, please refer to the Vue 2.6.10, tinymce 4.9.3
  * And use the editor.translate(), that means using tinymce i18n itself
  * If you use the editor.translate(), please add those codes below in tinymce/langs/en.js, tinymce/langs/zh_TW.js or tinymce/langs/zh_CN.js
  
  * When initializing TinyMCE, import this plug-in and add  
 tinymce.init({  
-   toolbar: 'customfontsize ...'  
+plugins: 'customfontsize ...',  
+toolbar: 'customfontsize ...'  
 });  
+
+ * Put the code in plugin.min.js  
+public/tinymce/plugins/customfontsize/plugin.min.js
 
  * In " tinymce/langs/en.js":  
 'Set Font Size': "Set Font Size",  
