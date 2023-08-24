@@ -7,15 +7,15 @@
  * And use the editor.translate(), that means using tinymce i18n itself
  * If you use the editor.translate(), please add those codes below in tinymce/langs/en.js, tinymce/langs/zh_TW.js or tinymce/langs/zh_CN.js
  * 
- * In " tinymce/langs/en.js":
+ * In " tinymce/langs/en.js":  
  'Set Font Size': "Set Font Size", 
  'Font Size': "Font Size",
  * 
- * In "tinymce/langs/zh_TW.js":
+ * In "tinymce/langs/zh_TW.js":  
  'Set Font Size': "\u8abf\u6574\u6587\u5b57\u5927\u5c0f",
  'Font Size': "\u6587\u5b57\u5927\u5c0f",
  * 
- * In "tinymce/langs/zh_CN.js":
+ * In "tinymce/langs/zh_CN.js":  
  'Set Font Size': "\u8bbe\u7f6e\u5b57\u4f53\u5927\u5c0f",
  'Font Size': "\u5b57\u4f53\u5927\u5c0f",
  * 
