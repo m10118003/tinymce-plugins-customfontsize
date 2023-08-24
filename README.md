@@ -8,7 +8,7 @@
  * If you use the editor.translate(), please add those codes below in tinymce/langs/en.js, tinymce/langs/zh_TW.js or tinymce/langs/zh_CN.js
  
  * When initializing TinyMCE, import this plug-in and add  
-tinymce.init({  
+tinymce.init({
     toolbar: 'customfontsize ...'  
 });  
 
