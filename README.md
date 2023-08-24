@@ -20,7 +20,7 @@
 'Font Size': "\u5b57\u4f53\u5927\u5c0f",
 
  * https://github.com/m10118003/tinymce-plugins-customfontsize
- *
+ 
  * Copyright 2023, Brian Shih Taiwan
- *
+ 
  * Licensed under MIT
