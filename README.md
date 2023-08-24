@@ -7,7 +7,7 @@
  * And use the editor.translate(), that means using tinymce i18n itself
  * If you use the editor.translate(), please add those codes below in tinymce/langs/en.js, tinymce/langs/zh_TW.js or tinymce/langs/zh_CN.js
  
- * When initializing TinyMCE, import this plug-in and add in the tinymce.init() 
+ * When initializing TinyMCE, import this plug-in and add in the tinymce.init() code:
 tinymce.init({  
 content_style: 'body { font-size: 14px; }',  
 plugins: 'customfontsize ...',  
