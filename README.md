@@ -13,7 +13,7 @@ plugins: 'customfontsize ...',
 toolbar: 'customfontsize ...'  
 });  
 
- * Put the code in plugin.min.js  
+ * Put the code in plugin.min.js:  
 public/tinymce/plugins/customfontsize/plugin.min.js
 
  * In " tinymce/langs/en.js":  
