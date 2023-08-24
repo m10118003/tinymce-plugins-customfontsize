@@ -14,7 +14,7 @@ plugins: 'customfontsize ...',
 toolbar: 'customfontsize ...'  
 });  
 
-* Note, if you don't want to use the plugin form, you may use the code in:  
+* Note, if you don't want to use the plugin form, you may use the customFontSize.js code in:  
 window.tinymce.init({  
    ...,  
    setup(editor) {
