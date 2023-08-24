@@ -9,7 +9,7 @@
  
  * When initializing TinyMCE, import this plug-in and add  
 tinymce.init({  
-  toolbar: 'customfontsize ...'  
+    toolbar: 'customfontsize ...'  
 });  
 
  * In " tinymce/langs/en.js":  
