@@ -12,11 +12,11 @@
  'Font Size': "Font Size",
  * 
  * In "tinymce/langs/zh_TW.js":  
-'Set Font Size': "\u8abf\u6574\u6587\u5b57\u5927\u5c0f",
+'Set Font Size': "\u8abf\u6574\u6587\u5b57\u5927\u5c0f",  
 'Font Size': "\u6587\u5b57\u5927\u5c0f",
  * 
  * In "tinymce/langs/zh_CN.js":  
-'Set Font Size': "\u8bbe\u7f6e\u5b57\u4f53\u5927\u5c0f",
+'Set Font Size': "\u8bbe\u7f6e\u5b57\u4f53\u5927\u5c0f",  
 'Font Size': "\u5b57\u4f53\u5927\u5c0f",
  * 
  * https://github.com/m10118003/tinymce-plugins-customfontsize
