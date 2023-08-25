@@ -6,7 +6,7 @@ tinymce.init({
         // 自定義文字大小, custom font size
         let customFontSizeButton;
         editor.addButton("customfontsize", {
-            text: "14px",
+            text: "16px",
             icon: false,
             style: "width: 100px", // 設定按鈕寬度, set widh for button
             onPostRender: function() {
@@ -20,7 +20,7 @@ tinymce.init({
                             type: "textbox",
                             name: "fontsize",
                             label: editor.translate("Font Size"), // editor.translate() 使用 tinymce 本身的 i18n, using tinymce i18n itself
-                            value: "14px"
+                            value: "" // 文字預設為空, set default font size
                         }
                     ],
                     onsubmit: function(e) {
@@ -29,7 +29,7 @@ tinymce.init({
                         // 如果輸入為空或不包含數字，設置一個預設值, set a default value if the input is empty or does not contain a number
                         const matches = fontSize.match(/\d+/g); // 獲取所有數字組合, get all number combinations
                         if (!fontSize || !matches || matches.length !== 1) {
-                            fontSize = "14px";
+                            fontSize = "16px";
                         } else {
                             // 只保留第一組數字, 並確保以 px 結尾, Only keep the first set of numbers, and make sure to end with px
                             fontSize = matches[0] + "px";
@@ -49,9 +49,9 @@ tinymce.init({
                         // 轉換字體大小到整數, converts font size to integer
                         const numericSize = parseInt(fontSize, 10);
 
-                        // 如果字體大小小於12px，則將其設定為12px, if the font size is less than 12px, set it to 14px
+                        // 如果字體大小小於12px，則將其設定為16px, if the font size is less than 12px, set it to 16px
                         if (numericSize < 12) {
-                            fontSize = "14px";
+                            fontSize = "16px";
                         }
 
                         // 更新自定義的字體大小命令, update command the custom font size
@@ -80,7 +80,7 @@ tinymce.init({
             true
           );
           if (!currentFontSize) {
-            currentFontSize = "14px";
+            currentFontSize = "16px";
           }
 
           if (customFontSizeButton) {
