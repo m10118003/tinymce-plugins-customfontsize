@@ -9,16 +9,19 @@
  
  * When initializing TinyMCE, import this plug-in and add in the tinymce.init() code:
 tinymce.init({  
-content_style: 'body { font-size: 14px; }',  
+content_style: 'body { font-size: 16px; }',  
 plugins: 'customfontsize ...',  
 toolbar: 'customfontsize ...'  
 });  
 
 * Note, if you don't want to use the plugin form, you may use the customFontSize.js code in:  
 window.tinymce.init({  
-   ...,  
-   setup(editor) {
-     editor.addButton('customfontsize', { ..})  
+  content_style: 'body { font-size: 16px; }',  
+  plugins: 'customfontsize ...',  
+  toolbar: 'customfontsize ...',  
+  ...,  
+  setup(editor) {
+    editor.addButton('customfontsize', { ..})  
   }
 }) 
 
